@@ -20,10 +20,7 @@ const reiniciarContador = () => {
   return (
     <div className="App">
       <div className="freecodecamp-logo-contenedor">
-        <img
-        className="freecodecamp-logo"
-        src={freecodecampLogo}
-        alt="Logo de freeCodeCamp" />
+        <h1>Contador de clicks</h1>
       </div>
       <div className="contenedor-principal">
         <Contador numClicks={numClicks} />
